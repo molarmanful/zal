@@ -5,6 +5,3 @@ Enter zal. Now you can write Zalgo your Javascript to spice things up a bit and 
 
 # Usage
 After including `zal.js` wherever you want/need, simply call `zal.encode` (to encode JS in Zalgo) or `zal.decode` (to decode Zalgo'd JS).
-
-# Examples
-See `examples/`.
