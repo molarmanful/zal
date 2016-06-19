@@ -50,6 +50,6 @@ zal={
     '\u036e':'v',
     '\u036f':'x'
   },
-  decode:x=>Object.getOwnPropertyNames(zalang.commands).map(a=>x=x.replace(RegExp(a,'g'),zalang.commands[a]))&&x,
-  encode:x=>Object.getOwnPropertyNames(zalang.commands).map(a=>x=x.replace(RegExp(zalang.commands[a].replace(/([?*+^().[\\|$])/g,'\\$1'),'g'),a))&&x
+  decode:x=>Object.getOwnPropertyNames(zal.commands).map(a=>x=x.replace(RegExp(a,'g'),zal.commands[a]))&&x,
+  encode:x=>Object.getOwnPropertyNames(zal.commands).map(a=>x=x.replace(RegExp(zal.commands[a].replace(/([?*+^().[\\|$])/g,'\\$1'),'g'),a))&&x
 }
