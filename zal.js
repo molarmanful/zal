@@ -30,6 +30,9 @@ zal={
     '\u033e':'$',
     '\u0349':'&',
     '\u0352':'!',
+    '\u1dc8':'>>>',
+    '\u1dc6':'>>',
+    '\u1dc7':'<<',
     '\u0354':'<',
     '\u0355':'>',
     '\u0359':'*',
@@ -64,7 +67,8 @@ zal={
     '\u1de4':'s',
     '\u1de6':'z',
     '\u1deb':'f',
-    '\u1dee':'p'
+    '\u1dee':'p',
+    '\u1df1':'w'
   },
   decode:x=>Object.getOwnPropertyNames(zal.commands).map(a=>x=x.replace(RegExp(a,'g'),zal.commands[a]))&&x,
   encode:x=>Object.getOwnPropertyNames(zal.commands).map(a=>x=x.replace(RegExp(zal.commands[a].replace(/([?*+^().[\\|$])/g,'\\$1'),'g'),a))&&x
