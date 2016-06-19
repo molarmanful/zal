@@ -9,13 +9,19 @@ After including `zal.js` wherever you want/need, simply call `zal.encode` (to en
 # Examples
 ## Hello, World!
 ```
+
 ̎Hͤll̛ͦ wͦͬlͩ͒̎
+
 ```
 ## Infinite Loop
 ```
+
 fͦͬ̐̐̐͜͡
+
 ```
 ## Fork Bomb
 ```
+
 f̳ͯͤͮͣ͢l̍͡f̐͜͡f̍̐͜͜͡f͜͡
+
 ```
