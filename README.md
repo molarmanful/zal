@@ -7,21 +7,27 @@ Enter zal. Now you can write Zalgo your Javascript to spice things up a bit and 
 After including `zal.js` wherever you want/need, simply call `zal.encode` (to encode JS in Zalgo) or `zal.decode` (to decode Zalgo'd JS).
 
 # Examples
-## Hello, World!
+### Hello, World!
 ```
 
 ̎Hͤll̛ͦ wͦͬlͩ͒̎
 
 ```
-## Infinite Loop
+### Infinite Loop
 ```
 
 fͦͬ̐̐̐͜͡
 
 ```
-## Fork Bomb
+### Fork Bomb
 ```
 
 f̳ͯͤͮͣ͢l̍͡f̐͜͡f̍̐͜͜͡f͜͡
+
+```
+### Function used in `zal.encode`
+```
+
+ͯ͢Obj̣ͤͨͭgͤͭOwnPͬͦpͤͬͭyNͣͫͤs͡zͣḷͨͦͫͫͣnͩṣͫͣ͜p̳̣ͣͯͯͬͤ͢͡plͣͨͤ͡RͤgEͯp͡zͣḷͨͦͫͫͣnͩs̪̺̣ͣͬͤpl̷̸̵̷̪͙̟̣̪̺ͣͨͤ̉̂̾͜͜͡͡͡g̸̛̍̾1̛̍̍͜g̛̘̍ͣͯ͜͜͜
 
 ```
